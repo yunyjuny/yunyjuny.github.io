@@ -6,8 +6,8 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>최현준 그리고 구도윤</title>
     <meta content="최현준과 구도윤의 결혼식에 와서 축하해주세요!" name="description"/>
-    <meta property="og:image" content="images/pic2.jpeg">
-    <!--<meta property="fb:app_id" content="781066922265598" />-->
+    <meta property="og:image" content="assets/img/portfolio/fullsize/1.jpg">
+    <meta property="fb:app_id" content="781066922265598" />
     <meta property="fb:admins" content="Yuny.ku"/>
     <link href="images/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
     <link href="images/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
     <link href="css/ekko-lightbox.css" rel="stylesheet">
+    <!---->
     <link href="styles/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Gugi|Noto+Serif+KR|Stylish|Sunflower:300"
           rel="stylesheet">
@@ -37,106 +38,6 @@
 		        con.style.display = 'block';
     	    }
         }
-
-
-.content_wrap {
-	font-size: 14px;
-	text-align: center;
-	padding-top: 15px;
-	margin: 0 15px;
-	color: #8d968c;
-	line-height: 20px;
-}
-
-.content_wrap h1 {
-	font-size: 15px;
-	font-weight: bold;
-	text-align: center;
-	padding-bottom: 15px;
-	color: #50a27f;
-}
-
-.content_wrap h1 img {
-	height: 40px;
-	vertical-align: middle;
-}
-
-.contact_wrap {
-	text-align: center;
-	padding-top: 15px;
-}
-
-.contact_wrap a {
-	font-size: 15px;
-	color: #2f302c;
-	font-weight: bold;
-	text-decoration: none;
-	display: inline-block;
-	padding: 10px;
-	min-width: 40px;
-	border-radius: 5px;
-}
-
-.contact_wrap a.bg1 {
-	background-color: #bbedc8;
-}
-
-.contact_wrap a.bg2 {
-	background-color: #9bddbe;
-}
-
-.contact_wrap a.bg3 {
-	background-color: #ccf2cb;
-}
-
-.contact_wrap img {
-	height: 15px;
-	padding-right: 5px;
-	vertical-align: middle;
-	position: relative;
-	top: -2px;
-}
-
-        function findGetParameter(parameterName) {
-            var result = null,
-                tmp = [];
-            location.search
-                .substr(1)
-                .split("&")
-                .forEach(function (item) {
-                  tmp = item.split("=");
-                  if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
-                });
-            return result;
-        }
-
-        $(document).ready(function () {
-
-            function getText(){
-                var result = null;
-                $.ajax( { url: "https://raw.githubusercontent.com/yunyjuny/yunyjuny.github.io/main/wedding/README.md",
-                        type: 'get',
-                        dataType: 'html',
-                        async: false,
-                        success: function(data) { result = data; }
-                    }
-                );
-                FileReady = true;
-                return result;
-            }
-            var markdown_source = getText();
-            var comment_contents = markdown_source.split("축하의 말")[1];
-
-            var md = new Remarkable();
-            $("#comments").append(md.render(comment_contents));
-
-            
-            if(findGetParameter('gift')=='false'){
-                $('#gifts').hide();
-            }
-        });
-
-
 
 
     </script>
@@ -297,10 +198,14 @@
                         <a href="#close">닫기</a>
                 </div>
             </div>
-                  
+        </div>
+    </div>
+</div>
+</html>
 
-        
-<!DOCTYPE html>
+
+
+            <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -346,8 +251,8 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
-            <img src="images/calendar.png" alt="Calendar" style="width="100%" height="300"">
+        <header class="masthead" style="text-align : center;">>
+            <img src="images/calendar.png"  alt="Calendar" style="width="100%" height="300"align : center">
 
 
 
@@ -648,7 +553,8 @@
 
 
 <!-- 계좌번호 ><-->
-<div class="ww-section parallax-window  text-white" data-parallax="scroll" data-image-src="images/gift/gift-background.jpg" id="gifts">
+<div class="ww-section parallax-window  text-white" data-parallax="scroll" 
+data-image-src="images/gift/gift-background.jpg" id="gifts">
     <div class="ww-gift-section">
         <div class="container">
             <h2 class="h1 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">Gift for our
