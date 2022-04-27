@@ -7,4 +7,5 @@
 
 * 날짜 : 2022년 06월18일 오후 3시
 * 장소 : 부산광역시 연제구 중앙대로 1125 목화예식장 아모르홀
-* 청첩장 url : https://yunyjuny.github.io/wedding
+* 청첩장 url : https://yunyjuny.github.io/wedding_invitation/
+
